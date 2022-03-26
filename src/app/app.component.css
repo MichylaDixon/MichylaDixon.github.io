@@ -1,0 +1,107 @@
+.container {
+    padding: 0rem;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid rgb(110, 109, 109);
+    position: relative;
+}
+
+.mat-tab-group {
+    margin-bottom: 48px;
+}
+
+::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+    color:rgb(85,91,223);
+    background-color: white;
+    font-size: 25px;
+    }
+
+.title-resume {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+    height  : 100px;   
+    position: relative;
+}
+
+.title-resume:before {
+    content : "";
+    position: absolute;
+    left    : -1%;
+    bottom  : -40%;
+    height  : 1px;
+    width   : 94%;
+    border-bottom: 2px solid rgb(110, 109, 109);
+}
+
+.content {
+    margin-top: 68px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.v-align-skills {
+    vertical-align: top;
+    width: 50%;
+}
+
+.flex-title {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex-resume {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sidebar-info {
+    height: 100%;
+    width: 19%;
+    color: white;
+}
+
+.side-bar-info-back {
+    background-color: rgb(85,91,223);
+    height: 100%;
+    text-align: center;
+}
+
+.resume-content {
+    width: 81%;
+    height: 900px;
+    color: rgb(42,10,94);
+    padding-right: 5%;
+}
+
+.contact-border {
+    width   : 100%;
+    height  : 100px;   
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+
+.contact-border:before {
+        content : "";
+        position: absolute;
+        left    : 10%;
+        bottom  : 0;
+        height  : 1px;
+        width   : 80%;
+        border-bottom: 1px solid white;
+}
+
+.contact-margin {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
